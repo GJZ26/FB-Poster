@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./common.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+
+    <!---- Copy from here -->
+
+    <div class="wrap">
+        <h1 class="titlefbplugin">FB Poster - Configuraciones</h1>
+
+        <form method="post" class="coolFBForm">
+            <div>
+                <label for="tokenfb">Token</label>
+                <input type="text" name="tokenfb" id="tokenfb" disabled value="EAAD3 • • • • • • • • 5IB8">
+                <span class="token-status" id="tknstatus">Activo</span>
+                <button id="uptoken">Actualizar</button>
+            </div>
+
+            <div>
+                <label for="delay">Demora (minutos)</label>
+                <input type="number" value="10" name="delay" id="delay" min="10" max="108000"> minutos&nbsp;<span
+                    id="bettertime"></span>
+            </div>
+
+            <div>
+                <label for="extra">Mensaje Extra</label>
+                <input type="text" name="extra" id="extra" value="algooo">
+            </div>
+
+            <div>
+                <label for="addDescriptionFB">Añadir descripcion</label>
+                <input type="checkbox" name="addDescriptionFB" id="addDescriptionFB" checked>
+            </div>
+
+            <div>
+                <label for="upperTitleFB">Título en mayúsculas</label>
+                <input type="checkbox" name="upperTitleFB" id="upperTitleFB" checked>
+            </div>
+
+            <div>
+                <label for="useLongURIFb">Usar URL larga</label>
+                <input type="checkbox" name="useLongURIFb" id="useLongURIFb" checked>
+            </div>
+
+            <input type="submit" value="Guardar" id="savefbsetting">
+        </form>
+        <div class="fbpreview">
+            <div class="fbheader">
+                <div class="image">
+                    <div class="image-content"></div>
+                </div>
+                <div class="user-info">
+                    <span class="page-title">
+                        Régimen de Chiapas
+                    </span>
+                    <span class="date">
+                        Publicado por <span id="bot-name">Botposter</span> <span class="time">15h</span>
+                    </span>
+                </div>
+            </div>
+            <div id="fbfmb" class="fb-content">
+                <span id="titlefb">Si estás leyendo este texto, ha ocurrido un error con tu plugin</span>
+                <span id="resumefb">Por favor, desactívelo y contacte al equipo de soporte</span>
+                <span id="extrapreview">Lamentamos el incoveniente...</span>
+                <span class="urifb" id="urifb"> -- </span>
+            </div>
+            <div class="fb-embed">
+                <div class="ogimg">
+                    <div class="ogimgcontent" id="ogimgcontent">
+                    </div>
+                </div>
+                <div class="ogdesc">
+                    <div class="uriog" id="uriog"> -- </div>
+                    <div class="ogtitle" id="ogtitle"> -- </div>
+                    <div class="ogcont" id="ogcont"> -- </div>
+                </div>
+            </div>
+            <div class="fbreact">
+                <div class="yop">
+                    <div class="reactions">
+                        <span class="reactionface"></span>
+                        <span class="reactionface"></span>
+                        <span class="reactionface"></span>
+                    </div>
+                    <span id="reacount"> -- </span>
+                </div>
+                <div class="shared">
+                    <span id="commentsfb"> -- </span>
+                    <span id="sharedfb"> -- </span>
+                </div>
+            </div>
+        </div>
+        <a id="showMoreInfoFB">
+            Más información
+        </a>
+        <div class="moreinfofb" id="moreinfocontainerFB" style="display: none;">
+            <h1>Condiciones</h1>
+            <p>
+                El plugin fue elaborado para satisfacer las necesidades técnicas de <strong>Régimen de Chiapas</strong>, y no es propiedad de dicha empresa.
+                El código fuente de este plugin está disponible en el enlace del plugin, y está bajo la licencia <strong>GNU General Public License v3.0 </strong>.
+            </p>
+            <h1>Previsualización y imagenes</h1>
+            <p>
+                La información usado para la previsualizacion de los post han sido generadas por el modelo
+                GPT 3.5, propiedad de Open AI, y se muestra de una lista de posibles contenidos generados previamente
+            </p>
+            <p>
+                Tanto las reacciones, comentarios y compartidos, no son garantia de los obtenidos en los resultados
+                finales, y sirven únicamente como demostración.
+            </p>
+            <p>
+                Los enlaces de dichas previsualizaciones están desactivados y no debe ser tomado en cuenta como una entrada
+                de publicacion real, todos los datos almacenados residen en los script que se ejecutan en el navegador y no altera
+                la base de datos de las entradas existentes.
+            </p>
+            <p>
+                Las imagenes presentadas son recuperada según el contenido generado, son usadas con el único fin ilustrativo
+                y de ser consultado, pueden ser retirados del programa sin previo aviso.
+            </p>
+            <ul>
+                <li>https://www.nationalgeographic.com.es/medio/2022/09/21/hongo-bioluminiscente_a8555106_960x619.jpg</li>
+                <li>https://s1.eestatic.com/2023/05/13/omicrono/analisis-prueba-productos/763433668_233129392_1706x960.jpg</li>
+                <li>https://cnnespanol.cnn.com/wp-content/uploads/2015/08/jice-jupiter.jpg?quality=100&strip=info</li>
+                <li>https://i.etsystatic.com/9357497/r/il/bf221e/617588189/il_1080xN.617588189_o4qs.jpg</li>
+                <li>https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2018/03/293503-suenos-lucidos.jpg?tf=3840x</li>
+                <li>https://conocedores.com/wp-content/uploads/2022/08/downtown-circle-dubai-ciudad-flotante-floating-24072022in5.webp</li>
+                <li>https://static.nationalgeographic.es/files/styles/image_3200/public/01-stray-dogs-nationalgeographic_1927666.jpg?w=1600&h=900</li>
+                <li>https://lamanzanamordida.net/app/uploads-lamanzanamordida.net/2021/06/Apps-para-cuidar-plantas.jpg</li>
+                <li>https://vacacionestodoincluido.net/wp-content/uploads/2017/03/espada-en-la-roca-excalibur-san-galgano.jpg</li>
+                <li>https://mymodernmet.com/wp/wp-content/uploads/2022/04/elliott-tanner-physics.jpg</li>
+                <li>https://laroussecocina.mx/wp-content/uploads/2023/02/AICocina_portada.jpg</li>
+                <li>https://upload.wikimedia.org/wikipedia/commons/f/f1/Mars_mission.jpg</li>
+                <li>https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2016/12/27172814/dwarka2-1024x668.jpg</li>
+                <li>https://1.bp.blogspot.com/--1uCtixtUpQ/T1eWn9ewV5I/AAAAAAAAaS0/3dtwi1glPrM/s1600/esculturas-robots_con_desechos_transformers16.jpg</li>
+                <li>https://cdn.vallarta-adventures.com/sites/default/files/inline-images/BLOG_dolphin_ext_0.jpg</li>
+            </ul>
+            <a id="closemoreinfocontainer">Cerrar</a>
+            <p></p>
+        </div>
+    </div>
+
+
+    <!---- to here -->
+
+
+</body>
+<script src="./script.js"></script>
+
+</html>
