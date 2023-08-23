@@ -25,7 +25,7 @@ class FbRequester
         $og_description = get_post_meta($post_ID, 'rank_math_description', true);
         $og_description = empty($og_description) ? "\n\n" . get_the_excerpt($post_ID) : "\n\n" . $og_description;
 
-        $link = $credentials["long_uri"] == "1" ? "\n\n" . get_permalink($post_ID) : "\n\n" . get_the_guid($post_ID);
+        $link = $credentials["long_uri"] == "1" ? get_permalink($post_ID) : get_the_guid($post_ID);
 
         $message = $credentials["upper"] == "1" ? mb_strtoupper($titulo) : $titulo;
         $message = $credentials["add_description"] == "1" ? $message . $og_description : $message;

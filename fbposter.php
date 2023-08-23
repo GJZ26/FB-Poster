@@ -3,7 +3,7 @@
 Plugin Name: FB Poster - Stable Version
 Plugin URI: https://github.com/GJZ26/FB-Poster
 Description: Wordpress plugin to automate Facebook posts 🐵
-Version: 1.0.0
+Version: 1.0.1
 Author: GJZ26
 Author URI: https://github.com/GJZ26
 */
